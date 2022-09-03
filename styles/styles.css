@@ -101,6 +101,29 @@ body {
     height: 120px;
 }
 
+/* Explore */
+.explore {
+    background-image: url("/bdd-clone-frontend/images/explorebg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.explore h3 {
+    padding-top: 2%;
+}
+
+.explore img {
+    width: 50%;
+    padding: 5% 0%;
+}
+
 /* Utilities */
 .btn {
     background-color: #0078BE;
@@ -121,9 +144,15 @@ body {
     font-size: xx-large;
 }
 
+.title-white {
+    font-size: xx-large;
+    color: white;
+}
+
 .center-text {
     text-align: center;
 }
+
 
 
 /* Media Query */
