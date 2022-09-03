@@ -383,6 +383,89 @@ body {
     width: 40%;
     margin-bottom: 5%;
 }
+
+/* Footer */
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(30, 30, 30);
+    padding-left: 4vw;
+    padding-right: 4vw;
+    height: 450px;
+}
+
+.mapsite-subscribe {
+    width: 95%;
+    display: flex;
+}
+
+.column {
+    width: 23%;
+    margin: 2vw 0vh 2vw 2vh;
+}
+
+.sitemap p {
+    color: #b6b6b6;
+}
+
+.list-1 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3vh;
+}
+
+.list-1 > ul{
+    list-style: none;
+    color: white;
+    padding-left: 10px;
+    font-size: 18px;
+}
+
+.list-1 > ul > li {
+    margin-bottom: 10px;
+}
+
+.list-1 p {
+    font-size: 19px;
+    margin-bottom: 1vh;
+    color: #646464;
+}
+
+.subscribe-column {
+    width: 30%;
+    margin: 2vw 0vh 2vw 2vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.form {
+    display: flex;
+    justify-content: space-around;
+}
+
+.form > input {
+    margin-right: 5%;
+    flex-grow: 1;
+}
+
+.download-options-1 {
+    display: flex;
+}
+
+.download-options-1 img {
+    width: 50%;
+    padding: 2%;
+}
+
+.links {
+    display: flex;
+}
+
+.links p {
+    margin-right: 5%;
+}
+
 /* Utilities */
 .btn {
     background-color: #0078BE;
@@ -419,6 +502,22 @@ body {
 .btn-large {
     font-size: large;
     padding: 1.3vh 1.6vw;
+}
+
+.color-lightgrey {
+    color: #b6b6b6;
+}
+
+.color-darkgrey {
+    color: #646464;
+}
+
+.color-white {
+    color: white;
+}
+
+.container {
+    padding: 5%;
 }
 
 
