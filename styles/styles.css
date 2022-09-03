@@ -392,7 +392,7 @@ body {
     background-color: rgb(30, 30, 30);
     padding-left: 4vw;
     padding-right: 4vw;
-    height: 450px;
+    height: 440px;
 }
 
 .mapsite-subscribe {
@@ -418,7 +418,7 @@ body {
 .list-1 > ul{
     list-style: none;
     color: white;
-    padding-left: 10px;
+    padding-left: 15px;
     font-size: 18px;
 }
 
@@ -465,6 +465,30 @@ body {
 .links p {
     margin-right: 5%;
 }
+
+.socials {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.socials p {
+    text-align: center;
+    padding: 20px;
+}
+
+.social-link {
+    display: flex;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-decoration: none;
+    background-color: transparent;
+    color: white;
+  }
 
 /* Utilities */
 .btn {
