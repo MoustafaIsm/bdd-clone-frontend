@@ -228,6 +228,45 @@ body {
     padding-bottom: 5px;
 }
 
+/* Tredning */
+.trending {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 3vh 0vw;
+    background-image: url("/bdd-clone-frontend/images/trendingBackground.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.trending-topics {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+}
+
+.trending-topic {
+    width: 33.33%;
+    margin: 2vh 2vw;
+    background-color: white;
+    padding: 2%;
+    border-radius: 10px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.trending-topic img {
+    width: 100%;
+}
+
+.date-place {
+    color: rgb(172, 172, 172);
+    width: 60%;
+}
+
 /* Utilities */
 .btn {
     background-color: #0078BE;
@@ -257,6 +296,9 @@ body {
     text-align: center;
 }
 
+.divider {
+    border-top: 2px solid lightgray;
+}
 
 
 /* Media Query */
