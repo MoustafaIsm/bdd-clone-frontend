@@ -124,6 +124,76 @@ body {
     padding: 5% 0%;
 }
 
+/* Join */
+.join {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.join-discription {
+    display: flex;
+}
+.join-discription > div:first-child {
+    width: 30%;
+}
+
+.join-discription img {
+    width: 100%;
+}
+
+.options {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.option {
+    width: 25%;
+    height: 400px;
+    padding: 2%;
+    background-color: white;
+    margin: 1vh 1vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 5px;
+}
+
+.option ul {
+    width: 80%;
+    list-style-image: url("/bdd-clone-frontend/images/bullet5.png");
+}
+
+.option > ul > li {
+    margin: 5% 0%;
+}
+
+/* Download */
+.download {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.download p {
+    font-size: large;
+}
+
+.download-options {
+    display: flex;
+    justify-content: end;
+}
+
+.download img {
+    width: 25%;
+    padding: 2%;
+}
+
 /* Utilities */
 .btn {
     background-color: #0078BE;
