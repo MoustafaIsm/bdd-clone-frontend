@@ -267,6 +267,79 @@ body {
     width: 60%;
 }
 
+/* Academy */
+.academy {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("/bdd-clone-frontend/images/academyBackground.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding-top: 5%;
+    height: 350px;
+}
+
+.academy-info {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+}
+
+.academy-discription {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 30%;
+}
+
+.academy-discription > div {
+    padding-bottom: 5%;
+}
+
+.academy-discription > div:first-child {
+    width: 20%;
+}
+
+.academy-discription img {
+    width: 100%;
+}
+
+.academy-discription p {
+    color: white;
+    font-size: 18px;
+}
+
+.academy-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.academy-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2vh 2vw;
+    margin-bottom: 5vh;
+    width: 33.33%;
+}
+
+.img-academy-icon {
+    width: 50%;
+    height: 50%;
+    margin-bottom: 3vh;
+}
+
+.img-academy-icon img  {
+    width: 100%;
+}
+
+.academy-icon p {
+    font-size: larger;
+    color: white;
+}
+
 /* Utilities */
 .btn {
     background-color: #0078BE;
