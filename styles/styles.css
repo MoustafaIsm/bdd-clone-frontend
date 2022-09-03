@@ -86,19 +86,25 @@ body {
 }
 
 .property-item {
-    width: 20%;
+    width: 20vw;
+    min-width: 200px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     padding: 3vh 2vw;
     margin: 2vh 1vw;
     background-color: white;
     border-radius: 5px;
 }
 
-.property-item img {
+.property-item > div {
     padding: 15%;
-    height: 120px;
+    display: flex;
+    justify-content: center;
+}
+.property-item > div > img {
+    width: 100%;
 }
 
 /* Explore */
@@ -117,11 +123,17 @@ body {
 
 .explore h3 {
     padding-top: 2%;
+    width: 50%;
+}
+
+.explore div {
+    display: flex;
+    width: 50%;
 }
 
 .explore img {
-    width: 50%;
-    padding: 5% 0%;
+    width: 100%;
+    
 }
 
 /* Join */
@@ -154,6 +166,7 @@ body {
 
 .option {
     width: 25%;
+    min-width: 220px;
     height: 400px;
     padding: 2%;
     background-color: white;
@@ -355,6 +368,7 @@ body {
 }
 
 .community > div:first-child {
+    
     width: 40%;
 }
 
@@ -392,7 +406,7 @@ body {
     background-color: rgb(30, 30, 30);
     padding-left: 4vw;
     padding-right: 4vw;
-    height: 440px;
+    /* height: 440px; */
 }
 
 .mapsite-subscribe {
@@ -546,3 +560,22 @@ body {
 
 
 /* Media Query */
+@media screen and (max-width: 1200px) {
+    .mobile {
+        flex-wrap: wrap;
+    }
+
+    .mobile-width > div {
+        width: 100%;
+    }
+
+    .mobile-column {
+        flex-direction: column;
+    }
+
+    .hide {
+        display: none;
+    }
+
+}
+
