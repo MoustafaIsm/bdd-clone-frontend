@@ -194,6 +194,35 @@ body {
     padding: 2%;
 }
 
+/* BDD Stats */
+.stats {
+    background-image: url("/bdd-clone-frontend/images/bdd-stats-background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.stats-details {
+    display: flex;
+    justify-content: center;
+}
+
+.stat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+}
+
+.stat img {
+    width: 100%;
+    padding: 20%;
+}
+
 /* Utilities */
 .btn {
     background-color: #0078BE;
