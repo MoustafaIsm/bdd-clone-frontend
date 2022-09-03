@@ -300,5 +300,10 @@ body {
     border-top: 2px solid lightgray;
 }
 
+.btn-large {
+    font-size: large;
+    padding: 1.3vh 1.6vw;
+}
+
 
 /* Media Query */
