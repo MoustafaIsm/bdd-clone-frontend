@@ -131,6 +131,7 @@ body {
     justify-content: center;
     align-items: center;
     width: 100%;
+    margin: 3vh 0vw;
 }
 
 .join-discription {
@@ -221,6 +222,10 @@ body {
 .stat img {
     width: 100%;
     padding: 20%;
+}
+
+.stat-number {
+    padding-bottom: 5px;
 }
 
 /* Utilities */
