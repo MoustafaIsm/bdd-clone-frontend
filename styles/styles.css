@@ -152,6 +152,7 @@ body {
 
 .join-discription img {
     width: 100%;
+    padding: 10%;
 }
 
 .options {
@@ -289,7 +290,7 @@ body {
     background-size: cover;
     width: 100%;
     padding-top: 5%;
-    height: 350px;
+    height: 100%;
 }
 
 .academy-info {
@@ -509,6 +510,7 @@ body {
     border: none;
     border-radius: 30px;
     padding: 1vh 1.3vw;
+    margin-bottom: 2vh;
 }
 .bold {
     font-weight: bold;
@@ -574,6 +576,10 @@ body {
 
     .hide {
         display: none;
+    }
+
+    .academy-discription {
+        width: 70%;
     }
 
 }
