@@ -13,6 +13,7 @@ img {
 
 body {
     background-color: rgb(231, 231, 231);
+    font-family: 'Kanit', sans-serif;
 }
 
 /* Header */
@@ -94,6 +95,26 @@ body {
     border-radius: 5px;
 }
 
+.property-item:hover {
+    cursor: pointer;
+}
+
+.hover-1:hover {
+    background-color: rgb(233, 250, 255);
+}
+
+.hover-2:hover {
+    background-color: rgb(228, 255, 228);
+}
+
+.hover-3:hover {
+    background-color: rgb(251, 251, 235);
+}
+
+.hover-4:hover {
+    background-color: rgb(250, 226, 229);
+}
+
 .property-item > div {
     padding: 15%;
     display: flex;
@@ -165,7 +186,7 @@ body {
 .option {
     width: 25%;
     min-width: 220px;
-    height: 400px;
+    height: 500px;
     padding: 2%;
     background-color: white;
     margin: 1vh 1vw;
